@@ -4,7 +4,7 @@ import re
 import httpx
 from bs4 import BeautifulSoup
 
-from .base import Announcement, BaseScraper
+from scrapers.base import Announcement, BaseScraper
 
 BASE_URL = "https://nia.or.kr"
 LIST_URL = f"{BASE_URL}/site/nia_kor/ex/bbs/List.do"
